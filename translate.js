@@ -9,7 +9,7 @@ class Translate {
                 "method": "GET",
                 "headers": {
                     "x-rapidapi-host": "nlp-translation.p.rapidapi.com",
-                    "x-rapidapi-key": "7807250710mshbdb2b550878c718p19d3d2jsn8c4248fedac6"
+                    "x-rapidapi-key": "your-apikey"
                 }
             }).then(response => resolve(response.text()))
               .catch(response => reject(response))
